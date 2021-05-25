@@ -23,6 +23,7 @@
 ### bee节点
 ```
 状态查询 : systemctl status bee
+启动bee : systemctl start bee
 查看实时日志 : journalctl --lines=100 --follow --unit bee
 ```
 
