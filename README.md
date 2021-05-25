@@ -6,6 +6,7 @@
 
 区块链浏览器 : https://goerli.etherscan.io/
 
+Debug api : https://docs.ethswarm.org/debug-api/
 
 ## 命令
 
