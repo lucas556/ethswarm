@@ -67,3 +67,5 @@ echo "* hard nofile 1048576" >> /etc/security/limits.conf
 echo "* soft nofile 1048576" >> /etc/security/limits.conf
 echo "root hard nofile 1048576" >> /etc/security/limits.conf
 echo "root soft nofile 1048576" >> /etc/security/limits.conf
+echo "bee hard nofile 1048576" >> /etc/security/limits.conf
+echo "bee soft nofile 1048576" >> /etc/security/limits.conf
