@@ -11,7 +11,7 @@ sudo dpkg -i bee_0.5.3_amd64.deb
 mkdir -p /Users/sig/.bee
 
 sudo chown -R bee:bee /var/lib/bee
-sudo chown -R /Users/sig/.bee
+sudo chown -R bee:bee /Users/sig/.bee
 
 rm -rf /etc/bee/bee.yaml
 
