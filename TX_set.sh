@@ -11,7 +11,6 @@ sudo dpkg -i bee_0.5.3_amd64.deb
 rm -rf /etc/bee/bee.yaml
 
   cat > /etc/bee/bee.yaml << EOF
-
 # bee-config.yaml 
 api-addr: :1633
 bootnode:
