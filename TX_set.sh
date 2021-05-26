@@ -6,6 +6,10 @@ sudo apt install -y ntpdate jq
 ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 ntpdate time1.tencentyun.com
 
+/Users/sig/.bee
+
+sudo chown -R bee:bee /var/lib/bee
+
 sudo dpkg -i bee_0.5.3_amd64.deb
 
 rm -rf /etc/bee/bee.yaml
