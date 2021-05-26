@@ -2,7 +2,7 @@
 
 apt-get update
 
-sudo apt install -y ntpdate
+sudo apt install -y ntpdate jq
 ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 ntpdate time1.tencentyun.com
 
