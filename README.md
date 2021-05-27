@@ -35,3 +35,12 @@ Debug api : https://docs.ethswarm.org/debug-api/
 香港:  /ip4/43.129.167.250/tcp/1634/p2p/16Uiu2HAkwNE3QqhoRLgyeEM3AknBKpYttS3LG2rLJJxsRRAVmXJv
 广州: 
 ```
+
+## 问题
+
+```
+Too many open files
+ps -ef | grep 'bee start --config /etc/bee/bee.yaml'
+sudo prlimit --nofile=1048576 --nproc=unlimited --rtprio=99 --nice=-19 --pid $
+
+```
