@@ -2,6 +2,7 @@
 api-addr: :1633
 bootnode:
 - /dnsaddr/bootnode.ethswarm.org
+- /ip4/43.129.167.250/tcp/1634/p2p/16Uiu2HAkwNE3QqhoRLgyeEM3AknBKpYttS3LG2rLJJxsRRAVmXJv
 bootnode-mode: false
 clef-signer-enable: false
 clef-signer-endpoint: ""
@@ -11,7 +12,7 @@ data-dir: /Users/sig/.bee
 db-block-cache-capacity: "33554432"
 db-capacity: "5000000"
 db-disable-seeks-compaction: false
-db-open-files-limit: "2000"
+db-open-files-limit: "2000000"
 db-write-buffer-size: "33554432"
 debug-api-addr: 127.0.0.1:1635
 debug-api-enable: true
@@ -19,10 +20,10 @@ full-node: true
 gateway-mode: false
 global-pinning-enable: false
 help: false
-nat-addr: "127.0.0.1:1634"
+nat-addr: "127.0.0.1:1634"  #外网IP
 network-id: "1"
 p2p-addr: :1634
-p2p-quic-enable: false
+p2p-quic-enable: true
 p2p-ws-enable: false
 password: ""
 password-file: ""
