@@ -17,9 +17,10 @@ Debug api : https://docs.ethswarm.org/debug-api/
 查询peers : curl -s http://localhost:1635/peers | jq '.peers | length'
 查询支票 : curl localhost:1635/chequebook/cheque | jq
 查询网络拓补 : curl -X GET http://localhost:1635/topology | jq
-查询当前节点余额 : curl http://localhost:1633
+查询当前节点余额 : curl http://localhost:1633/balances
 查询对等余额 : curl localhost:1635/balances | jq
 查询节点地址 : curl http://localhost:1635/addresses
+合约地址 : curl http://localhost:1635/chequebook/address
 
 ```
 
