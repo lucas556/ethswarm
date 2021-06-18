@@ -34,19 +34,18 @@ Debug api : https://docs.ethswarm.org/debug-api/
 
 bootnode or curl:
 ```
-curl -X POST localhost:1635/connect/ip4/43.129.167.250/tcp/1634/p2p/16Uiu2HAkwNE3QqhoRLgyeEM3AknBKpYttS3LG2rLJJxsRRAVmXJv
+curl -X POST localhost:1635/connect/ip4/106.52.79.134/tcp/1634/p2p/16Uiu2HAm1CzrQVwEYdue71anBctgG19ZwBc7E3ddWiYGQ2SMZofq
+curl -X POST localhost:1635/connect/ip4/119.91.118.37/tcp/1634/p2p/16Uiu2HAm8Pd52oHDP8uxneTXq4Ju7waCcPy5jJ9JCqFKzgyF9oUX
 ```
 
 ```
 # vim /etc/bee/bee.yaml
 bootnode:
 - /dnsaddr/bootnode.ethswarm.org
-- /ip4/43.129.167.250/tcp/1634/p2p/16Uiu2HAkwNE3QqhoRLgyeEM3AknBKpYttS3LG2rLJJxsRRAVmXJv
+- /ip4/119.91.118.37/tcp/1634/p2p/16Uiu2HAm8Pd52oHDP8uxneTXq4Ju7waCcPy5jJ9JCqFKzgyF9oUX
+- /ip4/106.52.79.134/tcp/1634/p2p/16Uiu2HAm1CzrQVwEYdue71anBctgG19ZwBc7E3ddWiYGQ2SMZofq
 ```
-```
-香港:  /ip4/43.129.167.250/tcp/1634/p2p/16Uiu2HAkwNE3QqhoRLgyeEM3AknBKpYttS3LG2rLJJxsRRAVmXJv
-广州: 
-```
+
 
 ## 问题
 
