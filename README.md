@@ -22,6 +22,8 @@ Debug api : https://docs.ethswarm.org/debug-api/
 查询节点地址 : curl http://localhost:1635/addresses
 合约地址 : curl http://localhost:1635/chequebook/address
 
+server : /usr/lib/systemd/system/bee.service
+
 ```
 
 ### bee节点
